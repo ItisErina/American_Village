@@ -1,78 +1,12 @@
 .swiper {
-    width: 100%;
-    height: 100vh;
 	width: 100%;
 	height: 83vh;
 }
 .swiper-slide img {
-<<<<<<< HEAD
     width: 100%;
     height: 100vh;
 }
 
 .icon::before,.icon::after{
     color: transparent;
-=======
-	width: 100%;
-	height: 100vh;
-}
-
-/* ここからがid=homeのcss*/
-#home{
-	height: 10vh;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	background-color: rgb(232, 232, 232);
-}
-
-.header-left,
-.header-right{
-	width: 50%;
-	height: 100%;
-}
-
-.header-left{
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	margin-left: 5%;
-}
-
-.header-right{
-	padding-top: 1%;
-}
-
-.header-right ul{
-	height: 80%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.header-right ul li{
-	color: rgb(112, 8, 8);
-}
-
-/* ここまでがid=homeのcss*/
-
-.links{
- height: 7vh;
- width: 100%;
- background-color: rgb(206, 206, 206);
-}
-
-.links .about{
-	height: 7vh;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 5%;
-}
-
-.about li a{
-	color: rgb(112, 8, 8);
-	text-decoration: none;
-	font-size: large;
->>>>>>> 78756510514e5dc84733e68098a3e22066983407
 }

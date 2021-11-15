@@ -51,6 +51,7 @@
  height: 7vh;
  width: 100%;
  background-color: rgb(206, 206, 206);
+ 
 }
 
 .links .about{
@@ -65,5 +66,59 @@
 	color: rgb(112, 8, 8);
 	text-decoration: none;
 	font-size: large;
+	cursor: pointer;
 }
 /*---------------ここまでが”class=lnks”のcss---------------*/
+/*-----------------ここからがid=aboutのcss-----------------*/
+#about{
+	height: 100vh;
+	width: 100vw;
+}
+
+.american-village-about{
+	height: 95%;
+	width: 100%;
+}
+
+.american-village-about h2,
+.american-village-about p,
+.american-village-about h3{
+	text-align: center;
+}
+
+.american-village-about h2{
+	display: block;
+	height: 10%;
+	width: 100%;
+	font-size: 50px;
+	background-color: rgb(112, 8, 8);
+	color: white;
+	line-height: 140%;
+}
+
+.about-text{
+	height: 30%;
+	width: 100%;
+}
+
+.about-text p{
+	height: 100%;
+	width: 100%;
+	padding-top: 3%;
+	line-height: 30px;
+}
+
+.map{
+	height: 60%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.map h3{
+	display: block;
+	height: 20%;
+	font-size: 30px;
+}
+/*-----------------ここまでがid=aboutのcss-----------------*/

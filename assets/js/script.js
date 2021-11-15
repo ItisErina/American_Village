@@ -15,5 +15,12 @@ let mySwiper06 = new Swiper ('#swiper06', {
     prevEl: '.swiper-button-prev',
   },
 });
-
-console.log(mySwiper06);
+// ハンバーガーメニュー
+// $(".openbtn").click(function () {
+//   $(this).toggleClass('active');
+// });
+$(function () {
+  $('.js-btn').on('click', function () {        // js-btnクラスをクリックすると、
+    $('.menu , .btn-line').toggleClass('open'); // メニューとバーガーの線にopenクラスをつけ外しする
+  })
+});

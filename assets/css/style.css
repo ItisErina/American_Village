@@ -1,3 +1,4 @@
+/* Swiper */
 .swiper {
     width: 100%;
 	height: 83vh;
@@ -6,8 +7,15 @@
 	width: 100%;
 	height: 100vh;
 }
+.icon{
+	color: transparent;
+}
 
 /*-----------------ここからがid=homeのcss-----------------*/
+.icon{
+	color: transparent;
+}
+
 #home{
 	height: 10vh;
 	width: 100%;
@@ -94,6 +102,7 @@
 	background-color: rgb(112, 8, 8);
 	color: white;
 	line-height: 140%;
+	padding-top: 10px;
 }
 
 .about-text{

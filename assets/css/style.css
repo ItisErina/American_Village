@@ -305,6 +305,7 @@ button {
     /*はじめは非表示*/
 	opacity: 0;
 	transform: translateY(150px);
+	background-color: ;
 }
 
 /*　上に上がる動き　*/
@@ -380,8 +381,5 @@ button {
     right: 20px;
 	color: #666;
 }
-/*検証のためのCSS*/
-section{
-padding: 500px 0;
-}
+
 

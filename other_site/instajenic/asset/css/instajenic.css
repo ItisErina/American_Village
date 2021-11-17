@@ -161,15 +161,15 @@ html{
 }
 /* ここまでがコードペン使用 */
 
-#fire_dept_iland,
-#moon_object,
-#okinawa_market{
+#link_01,
+#link_02,
+#link_03{
   height: 80vh;
   width: 100vw;
   background-color: white;
 }
 
-.DD_1{
+.content{
   height: 100%;
   width: 100%;
   display: flex;
@@ -177,16 +177,16 @@ html{
   align-items: center;
 }
 
-.DD_1 h2{
+.content h2{
   font-size: 30px;
   padding: 3%;
   text-align: center;
   line-height: 45%;
 }
 
-.dd_img,
-.CH_img,
-.MO_img{
+.img_01,
+.img_02,
+.img_03{
   height: 70%;
   width: 94%;
   background-size: cover;
@@ -195,16 +195,16 @@ html{
   /* position:relative; */
 }
 
-.dd_img{
-  background-image: url(../img/fire_dept_iland_main.png);
+.img_01{
+  background-image: url(../img/main_01.png);
 }
 
-.CH_img{
-  background-image: url(../img/moon_object_main.jpeg);
+.img_02{
+  background-image: url(../img/main_02.jpeg);
 }
 
-.MO_img{
-  background-image: url(../img/okinawa_market_main.png);
+.img_03{
+  background-image: url(../img/main_03.png);
 }
 
 .link{
@@ -216,7 +216,7 @@ html{
   height: 100%;
 }
 
-.dd_text{
+.text_content{
   height: 30%;
   width: 94%;
   display: flex;
@@ -224,7 +224,8 @@ html{
   justify-content: center;
 }
 
-.dd_text p{
+.text_content p{
+  text-align: center;
   line-height: 45px;
 }
 
